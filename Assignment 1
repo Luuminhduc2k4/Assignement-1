@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Print greeting
+    cout << "Hello Inventory System!\n";
+
+    // Demonstrate escape characters and output data sizes
+    cout << "\tData Types:\n";
+    cout << "\tSize of int: " << sizeof(int) << " bytes\n";
+    cout << "\tSize of float: " << sizeof(float) << " bytes\n";
+    cout << "\tSize of char: " << sizeof(char) << " bytes\n";
+
+    return 0;
+}
